@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp"
+        tools:ignore="MissingConstraints"
+        android:background="@android:color/holo_blue_light">
+
+        <TextView
+            android:id="@+id/textViewSelGrupo"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_margin="5dp"
+            android:padding="5dp"
+            android:text="Selecione o Grupo"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:background="@android:color/white"
+            android:textColor="@android:color/holo_blue_dark"/>
+
+        <androidx.appcompat.widget.AppCompatSpinner
+            android:id="@+id/spnTest"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/spinner_bg"
+            android:spinnerMode="dropdown"
+            />
+
+        <EditText
+            android:id="@+id/editTextNumberFaixaInicial"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_margin="5dp"
+            android:padding="5dp"
+            android:background="@android:color/white"
+            android:textColorHint="@android:color/holo_blue_dark"
+            android:editable="true"
+            android:ems="10"
+            android:maxLength="5"
+            android:hint="Faixa Inicial"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/editTextNumberFaixaFinal"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_margin="5dp"
+            android:padding="5dp"
+            android:background="@android:color/white"
+            android:textColorHint="@android:color/holo_blue_dark"
+            android:editable="true"
+            android:ems="10"
+            android:maxLength="5"
+            android:hint="Faixa Final"
+            android:inputType="number" />
+
+        <Button
+            android:id="@+id/buttonGerarNumero"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="5dp"
+            android:padding="5dp"
+            android:background="@android:color/white"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textStyle="bold"
+            android:textSize="16dp"
+            android:text="Gerar Número" />
+
+        <TextView
+            android:id="@+id/textViewMensagem"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_margin="5dp"
+            android:padding="30dp"
+            android:background="@android:color/white"
+            android:text="Este é o seu número da sorte"
+            android:textSize="34sp"
+            android:textAlignment="center"
+            android:gravity="center_horizontal"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/editTextNumberNumeroGerado"
+            android:layout_width="match_parent"
+            android:layout_height="234dp"
+            android:background="@color/white"
+            android:editable="true"
+            android:ems="10"
+            android:enabled="false"
+            android:gravity="center_horizontal"
+            android:inputType="number"
+            android:maxLength="5"
+            android:textAlignment="center"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textSize="96sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewNomeGrupo"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_margin="5dp"
+            android:padding="5dp"
+            android:background="@android:color/white"
+            android:text=""
+            android:textSize="16sp"
+            android:textAlignment="center"
+            android:gravity="center_horizontal"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textStyle="bold"/>
+
+        <Button
+            android:id="@+id/buttonLimpar"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="5dp"
+            android:padding="5dp"
+            android:background="@android:color/white"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textStyle="bold"
+            android:textSize="16dp"
+            android:text="Limpar" />
+
+    </LinearLayout>
+</RelativeLayout>

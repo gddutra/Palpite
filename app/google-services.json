@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "991175698296",
+    "project_id": "palpite-5829e",
+    "storage_bucket": "palpite-5829e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:991175698296:android:d038762d04f6b0367f0a8d",
+        "android_client_info": {
+          "package_name": "com.gdapps.palpite"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "991175698296-prbiv5lnd3fi9bf3889subql9ktfr18h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBFNtMq9XV7-SRcay5LA-A0aKYl4s5KbTk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "991175698296-prbiv5lnd3fi9bf3889subql9ktfr18h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
